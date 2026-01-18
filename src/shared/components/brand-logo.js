@@ -23,7 +23,7 @@ export class ConverseBrandLogo extends CustomElement {
                 <span class="brand-name-wrapper ${is_fullscreen ? 'brand-name-wrapper--fullscreen' : ''}">
                     <converse-logo class="converse-svg-logo"></converse-logo>
                     <span class="brand-name">
-                        <span class="brand-name__text">converse<span class="subdued">.js</span></span>
+                        <span class="brand-name__text">hackerchat<span class="subdued">.net</span></span>
                         ${is_fullscreen && !this.hide_byline
                             ? html`
                                 <p class="byline">messaging freedom</p>
